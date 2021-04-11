@@ -1,0 +1,13 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src/main"]
+
+ :dependencies
+ []
+
+ :builds
+ {:fn {:target :node-library
+       :js-options {:js-package-dirs ["functions/node_modules"]}
+       :compiler-options {:infer-externs :auto}
+       :output-to "functions/index.js"
+       :exports-var functions.fn/exports}}}

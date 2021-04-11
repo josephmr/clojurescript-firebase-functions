@@ -1,0 +1,12 @@
+{
+  "name": "functions",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "postinstall": "cd functions && npm i"
+  },
+  "devDependencies": {
+    "shadow-cljs": "2.12.4"
+  },
+  "dependencies": {}
+}
